@@ -1,0 +1,252 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Customized CSS */
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* General */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 12px 0;
+}
+h1{
+    font-family: 'DM Serif Display', serif;
+    color: rgb(45 38 64);
+    font-size: 32px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(116 114 122);
+    margin-left: 32px;
+}
+.active{
+    border: 1px solid rgb(116 114 122);
+    padding: 10px;
+    border-radius: 4px;
+}
+/* Section 1 */
+.section1{
+    background-color: rgb(45 38 64);
+    height: 400px;
+}
+.column1{
+    width: 400px;
+    display: inline-block;
+}
+hr{
+    width: 30%;
+    border-style: solid white;
+    margin: 30px 0;
+}
+h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    color: white;
+}
+.column1 p{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+.view-plans-tab{
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0 32px 0;
+}
+.img-1{
+    margin-top: 30px;
+    width: 400px;
+    height: 450px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    text-align:justify;
+}
+/* Section2 */
+.section-2-flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 80px 0;
+}
+.article-text{
+    vertical-align: middle;
+    padding-top: 180px;
+    padding-left: 30px;
+}
+h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.article-text p{
+    font-family: 'Karla', sans-serif;
+    color: rgb(116 114 122);
+    margin-bottom: 20px;
+}
+.know-more-tab{
+    text-decoration: none;
+    color: rgb(116 114 122);
+    border: 1px solid rgb(116 114 122);
+    padding: 10px;
+    border-radius: 4px;
+}
+/* Section-3 */
+.hr-2{
+    width: 10%;
+    border-style: solid rgb(116 114 122);
+}
+.section-3-flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.features{
+  width: 30%;
+}
+.features p{
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 30px;
+}
+.icon{
+    width: 36px;
+    height: 36px;
+    color: white;
+    background-color: rgb(138 180 240);
+    padding: 10px;
+    border-radius: 50%;
+}
+h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* Section-4 */
+.section-4-flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color:  rgb(45 38 64);
+    padding: 35px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+h5{ 
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 32px;
+}
+.how-we-work-tab{
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+}
+/* Footer */
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.footer-hr{
+    width: 100%;
+    border-style: solid rgb(116 114 122);
+    margin-top: -3px;
+}
+.media-icons{
+    margin-left: 32px;
+    font-size: 26px;
+    color: rgb(116 114 122);
+}
+.footer-nav-flex{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.nav{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(116 114 122);
+    margin-bottom: 24px;
+}
+.copyright{
+    background-color: rgb(45 38 64);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.copy{
+    color: rgb(116 114 122);
+}
+   
+    
